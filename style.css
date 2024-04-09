@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+/* General Styles */
+body {
+    font-family: Georgia, serif;
+    background-color: #f0e8d7;
+    color: #4d3d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#hadith {
+    font-family: 'amiri quran', serif;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#source{
+    direction: rtl;
+    font-family: 'amiri quran', serif;
+}
+/* Wrapper Styles */
+.wrapper {
+    background-color: #e8ddc5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+/* Heading Styles */
+span {
+    font-family: 'amiri quran', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8b6c4f;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+/* Hadith Text Styles */
+#hadith {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: justify;
+}
+/* Button Styles */
+#btn {
+    background-color: #8b6c4f;
+    color: #f0e8d7;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+#btn:hover {
+    background-color: #6d543e;
+}
+#btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(139, 108, 79, 0.4);
+}
