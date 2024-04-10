@@ -13,7 +13,7 @@ const fetchHadith = async () => {
 
     const arabicText = data.data.contents.arab;
     const source = data.data.id
-    const number = data.data.contents.number+1;
+    const number = data.data.contents.number;
     
 
 //thats for changing the value for each tag in the HTML code 
